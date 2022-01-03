@@ -4,19 +4,19 @@ pipeline {
     }
 
     stages {
-        stage('Hello') {
+        stage('Dev') {
             steps {
                 echo 'This is Dev environment'
             }
         }
         
-        stage('Hello') {
+        stage('Test') {
             steps {
                 echo 'This is Test environment'
             }
         }
         
-        stage('Hello') {
+        stage('Prod') {
             steps {
                 echo 'This is Production environment'
             }
