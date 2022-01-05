@@ -9,5 +9,11 @@ pipeline {
                 echo 'This is Dev environment'
             }
         }
-     }
+
+        stage('Test') {
+            steps {
+                echo 'This is Test environment'
+            }
+        }
+    }
 }
